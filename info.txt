@@ -1,0 +1,35 @@
+gradle => gradle kotlin dsl
+
+settings.gradle.kts
+build.gradle.kts
+/app/build.gradle.kts
+
+https://betterprogramming.pub/gradle-dependency-management-with-buildsrc-and-kotlin-dsl-1de958eab166
+
+https://medium.com/android-dev-hacks/kotlin-dsl-gradle-scripts-in-android-made-easy-b8e2991e2ba
+https://blog.mindorks.com/migrate-to-gradle-kotlin-dsl
+
+
+*****************************************************************
+https://github.com/bernaferrari/GradleKotlinConverter
+
+----install scoop on Win10------
+From CMD => powershell
+* Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+* Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+----install GradleKotlinConverter on Win10------
+From CMD
+* scoop install kotlin -g
+
+Clipboard mode:
+$ ./gradlekotlinconverter.kts
+
+from : IntelliJ IDEA 2020.2.3
+-- open project "GradleKotlinConverter"
+-- Copy text : gradle
+-- from CMD run :
+-- kotlinc -script gradlekotlinconverter.kts
+-- paste the kotlin DSL result
+
+*****************************************************************

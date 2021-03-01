@@ -1,0 +1,1 @@
+D:\AndroidStudioProjects\TestKotlinGradleDSL\buildSrc\build\classes\kotlin\main\Versions.class
